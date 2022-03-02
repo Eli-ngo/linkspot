@@ -6,3 +6,48 @@
 /******************/
 /***** MIXINS *****/
 /******************/
+
+body{
+    margin: 3rem 0 0 0;
+    font-weight: initial;
+    overflow: hidden;
+}
+
+h1, h2{
+    margin: 0;
+    font-weight: initial;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    font-size: 0.93rem;
+}
+
+.bd-grid {
+    max-width: 1200px;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+}
+.l-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    z-index: 100; 
+}

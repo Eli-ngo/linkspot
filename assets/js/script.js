@@ -1,5 +1,7 @@
 // assets/js/script.js
 
+// GSAP
+
 TweenMax.to(".home__primary", 2, {
     width: "100%",
     ease: Expo.easeInOut
