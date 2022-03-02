@@ -35,15 +35,56 @@
     </script>
 </head>
 <body>
-    <!-- header -->
+
+    <header class="1-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <ion-icon name="reorder-two-outline"></ion-icon>
+            </div>
+            <div>
+                <h1>
+                    <a href="#" id="logo">
+                        <img src="" class="nav__logo" alt="logo linkspot">
+                    </a>
+                </h1>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="" class="nav__link">à propos</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">politique de confidentialité</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main-bg">
+        <!-- HOME -->
+        <div class="home">
+            <div class="home__primary">
+                <h1 class="home__title">Rencontrez-vous...</h1>
+
+                <div class="home__img">
+                    <img src="assets/img/banner.png" alt="banner">
+                </div>
+            </div>
+
+            <div class="home__secondary">
+                <a class="home__scroll" href="#about">SCROLL DOWN</a>
+            </div>
+        </div>
+    </main>
+    
+    <!-- 
     <header>
-        <!-- navbar -->
+       
         <nav id="navbar">
             <figure>
                 <a href=""><img src="" alt="" id="logo"></a>
             </figure>
 
-            <!-- menu burger mobile -->
+            
             <button class="mobile__nav--toggle" aria-controls="primary-navigation" aria-expanded="false">
                 <span class="sr-only"></span>
             </button>
@@ -74,8 +115,13 @@
             </ul>
         </nav>
     </header>
+    -->
 
+    <!-- ICONOS -->
+    <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- script -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
